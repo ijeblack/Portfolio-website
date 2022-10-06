@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-----using-FontAwesome----------->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <section>
+        <!-----navigation------------>
+        <nav>
+            <!---logo--->
+            <a href="#" class="logo">My Website</a>
+            <!---menu--->
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Team</a></li>  
+            </ul>
+             <!-----bars--------------->
+             <div class="toggle"></div>
+        </nav>
+
+        <!-----text--------------->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'M ABRAHAM IJEOMA FAITH</p>
+            <P>I am a Frontend Web Developer <br> and UI/UX Deigner</P>
+            <button class="hire-btn">Hire me</button>
+            <a href="./images/cv.pdf" download>download cv</a>
+        </div>
+        <a href="./images/cv.pdf" download style="background-color: black; border-radius: 5px; color: white; ">download cv</a>
+
+        <!-----model--------------->
+        <img src="./images/photo1.png" class="photo1" alt="photo1">
+    </section>
+
+
+    <!-----about-section----------------->
+    <div class="about-container">
+        <!-----img----------------->
+        <img src="./images/photo1.png" alt="photo1">
+        <!-----about-text---------------->
+        <div class="about-text">
+            <p>About me </p>
+            <p>Developer and Designer</p>
+            <p>I am proficient in Software Development, UI/UX design, Frontend Web Development, Database administration, I have a keen interest in technology and user experience.</p>
+            <p>My interests include learning something new, getting socialized, and even more taking initiative. I am looking for an opportunity to use my skills and experience to make a positive impact on the web. </p>
+            <!-----button------------------------------->
+            <button>Hire Me</button>
+            <a href="./images/cv.pdf" download>download cv</a>
+        </div>
+
+    </div>
+
+
+    <!-----services------------------------------>
+    <div class="services">
+        <!-----text------------------------------>
+        <div class="services-text">
+            <p>Services</p>
+            <p>Services Required</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, beatae explicabo nisi aut accusantium
+                iusto placeat est distinctio nihil quo esse labore in. Enim neque, doloremque doloribus dignissimos
+                iusto ad.</p>
+        </div>
+        <!-----box------------------------------>
+        <div class="box-container">
+            <!-----1------------------------------>
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Web Developer</p>
+                <p class="details">If you want to make a software for your business contact me. I am passionate about creating websites that users will find easy to use and visually appealing. I make as soon as
+                    possible.You will really like my work, if you don't i will change this until you like if you want.
+                </p>
+                <button>Read More</button>
+            </div>
+            <!-----2------------------------------>
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">UI/UX Designer</p>
+                <p class="details">  I strive to create interfaces that are easy to use and look beautiful while doing so.
+                    I am also passionate about making my designsresponsive and adaptive to different devices and screen sizes.
+                </p>
+                <button>Read More</button>
+            </div>
+            <!-----3----------------------------->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Social Media Manager</p>
+                <p class="details">As a social media marketing manager basically I figure out what to post to our Facebook, Instagram, and Twitter accounts and Nairaland.
+                     As a social media managers are responsible for developing and implementing marketing strategies for a business's social media sites.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----CONTACT ME----------------------------->
+    <div class="contact-me">
+        <p>If you Have Any Project In Your Mind.</p>
+        <button></button>
+        <a href="mailto:abrahamijeoma37@gmail.com">Contact Me</a>
+    </div>
+    <a href="mailto:abrahamijeoma37@gmail.com" style ="background-color:black; border-radius: 5px;">Contact Me</a>
+
+    <!-----footer----------------------------->
+    <footer>
+        <p>Going to Internet</p>
+        <p> I make as soon as possible. You really like my work, if you don't i will change this until you like it.</p>
+
+        <!-----social---------------------------->
+        <div class="social-icons">
+
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+
+        </div>
+
+        <!-----copyright----------------------------->
+        <p class="copyright"> &copy; Copyright by Going -To Internet</p>
+
+    </footer>
+
+    <!----social--attached  bar-------------------->
+    <div class="social">
+
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+</div>
+
+<!----JQUery------------------->
+<script type="text/javascript" src="jQury.js"></script>
+<script type="text/javascript">
+$(document).ready (function(){
+    $('.toggle').click (function(){
+         $('.toggle').toggleclass('active')
+         $('.nav').toggleclass('active')
+    })
+})
+
+</script>
+
+</body>
+
+</html>
